@@ -1,13 +1,40 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+color: white !important;
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,600;1,500&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a,a:hover
+{
+color: white !important;
+text-decoration: none !important;
+}
+.bg-lights 
+{
+  background-color: #24baef !important;
+}
+.second{
+  color: #949cb0;
+}
+.brdr 
+{
+  height: 2px;
+  background-color: #a8a8a83d !important;
+}
+.form-control 
+{
+  background-color: transparent;
+  color: white !important;
+}
+.form-control:focus {
+  color: #212529;
+  background-color:transparent !important;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25remrgba(13,110,253,.25);
 }
